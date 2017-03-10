@@ -1,0 +1,103 @@
+*{
+	margin:0;
+	padding: 0;
+	list-style: none;
+}
+body,html{
+	width: 100%;
+	height: 100%;
+}
+.zongk{
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+.page1{
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+.page1 .bg{
+	background: url(../img/section1.jpg) center center/cover;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+}
+.page1 .bg11{
+	background: url(../img/bg11.png) 50% 0 no-repeat;
+	position: absolute;
+	bottom:0;
+	width: 100%;
+	height: 100%;
+	transition: all 1s;
+}
+.page1.active .bg12{
+	background: url(../img/bg12.png) 50% 0 no-repeat;
+	position: absolute;
+	left: 0;
+	bottom:90px;
+	width: 100%;
+	height: 392px;
+	/*transition: all 1.7s 0.7s;*/
+	animation:bg 1s linear 0.2s alternate;
+}
+@keyframes bg{
+	from{
+		left: 0;
+		bottom: -200px;
+	}
+	/*to{
+		left:0;
+		bottom: 90px;
+	}*/
+}
+.page1.active .bg13{
+	background: url(../img/bg13.png) 50% 0 no-repeat;
+	position: absolute;
+	left: 0;
+	bottom:-10px;
+	width: 100%;
+	height: 392px;
+	/*transition: all 1.7s 0.7s;*/
+	animation:bg 1s linear 0.2s alternate;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
